@@ -22,6 +22,10 @@ function no_content_get_footer() {
 	do_action( 'page_builder_content_body_after' );
 	wp_footer(); 
 ?>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script>
+  var pymChild = new pym.Child();
+</script>
 </body>
 </html>
 <?php
